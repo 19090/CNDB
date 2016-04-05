@@ -43,3 +43,8 @@ DELETE FROM `locales_creature` WHERE `entry`=8724;
 INSERT INTO `locales_creature` (`entry`, `name_loc1`, `name_loc2`, `name_loc3`, `name_loc4`, `name_loc5`, `name_loc6`, `name_loc7`, `name_loc8`, `subname_loc1`, `subname_loc2`, `subname_loc3`, `subname_loc4`, `subname_loc5`, `subname_loc6`, `subname_loc7`, `subname_loc8`)
 VALUES
 	(8724, '', '', '', '拍卖师瓦巴恩', '拍賣師瓦巴恩', '', '', '', NULL, NULL, NULL, '银行职员', '銀行職員', NULL, NULL, NULL);
+
+DELETE FROM `locales_creature` WHERE `entry`=24782;
+INSERT INTO `locales_creature` (`entry`, `name_loc1`, `name_loc2`, `name_loc3`, `name_loc4`, `name_loc5`, `name_loc6`, `name_loc7`, `name_loc8`, `subname_loc1`, `subname_loc2`, `subname_loc3`, `subname_loc4`, `subname_loc5`, `subname_loc6`, `subname_loc7`, `subname_loc8`)
+VALUES
+	(24782, '', '', '', '被削弱的摩本特·费尔', '被削弱的摩本特·費爾', '', '', '', NULL, NULL, NULL, '', '', NULL, NULL, NULL);
