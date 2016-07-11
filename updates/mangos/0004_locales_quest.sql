@@ -29,3 +29,4 @@ INSERT INTO `locales_quest` (`entry`, `Title_loc1`, `Title_loc2`, `Title_loc3`, 
 VALUES
 	(7628, NULL, NULL, NULL, '末日蜡烛', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '末日蜡烛汇集了火焰的力量，并将其倾斜在那些胆敢打断你的召唤仪式的蠢货身上。当你制造了一个强力召唤法阵并点燃蜡烛之后，任何胆敢闯入结界的恶魔都会被烧成灰烬！$B$B但是想要保存这样的火焰可不容易，你必须有黑龙鳞片中的精华成分。收集这些鳞片，然后把它们交给戈瑟奇·邪眼。', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '把35块黑龙鳞片交给燃烧平原的戈瑟奇·邪眼。', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '啊，很好。我需要用这些东西来保存蜡烛的火焰。有了这些黑龙鳞片之后，我就可以制作蜡烛，然后代你保管它，直到你准备好进行强力召唤法阵的仪式。$B', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '你把龙鳞带来了吗，$N?在你带来鳞片之前我不会开始制作蜡烛……否则整个营地都会被炸上天的!', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
+UPDATE `locales_quest` SET `RequestItemsText_loc4`=NULL WHERE `entry` IN (8747,8757,8752);
